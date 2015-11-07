@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.har8.scratchlogin2.Homepage">
+
+    <item
+        android:id="@+id/updateStatus"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:text="Post Status"
+        android:icon="@drawable/ic_1418794235_new_24_128"
+        android:title="Post Status"
+        />
+
+
+    <item
+        android:id="@+id/logoutUser"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Logout" />
+</menu>
+
+<!--
+    <item
+        android:id="@+id/refreshStatus"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="Update"
+        android:icon="@drawable/refreshicon"
+        />
+-->

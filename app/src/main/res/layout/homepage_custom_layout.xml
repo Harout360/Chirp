@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="usernameHP"
+        android:id="@+id/usernameHP"
+        android:drawableLeft="@drawable/ic_emoticons_smile_smiley_x2"
+
+        android:gravity="center_vertical"
+        android:textColor="#ff029acc" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="comment"
+        android:maxLength="50"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:id="@+id/statusHP"
+        android:textSize="20dp" />
+
+
+</LinearLayout>
